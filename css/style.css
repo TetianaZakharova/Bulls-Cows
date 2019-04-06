@@ -1,0 +1,92 @@
+body {
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+  background: #c4f5f5;
+  font-family: arial; 
+  text-align: center;
+}
+
+  img{
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle; 
+}
+
+.header {
+  text-align: center; }
+
+div {
+  margin: 10px;
+  min-height: 10px; }
+
+.hello {
+  text-align: center;
+  font-size: 2em; }
+
+.form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  align-content: center;
+  padding: 16px; 
+  width: 40%;
+}
+#player{
+  width: 200px;
+  height: 30px;
+}
+  .form label {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 8px; 
+    margin: 0 auto;
+  }
+  .form input {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+  }
+  .form #guess {
+    margin: 8px auto;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #aab2bd;
+    border: solid 1px rgb(226, 228, 231);
+    height: 32px;
+    width: 104px;
+    border-radius: 2px;
+    margin-top: 4px;
+    box-sizing: border-box;
+    outline: none;
+    }
+.form #guess:hover{
+  cursor: pointer;
+  background-color: #bd55ff;
+  color: #ffffff;
+}
+.table {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+.turnsList {
+  padding: 10px;
+  width: 30%;
+  border-radius: 5px;
+  background: #dfe659;
+
+}
+.bull-img {
+width: 30%;
+height:auto;
+}
+.turnsList, .bull-img {
+  margin: 12px 8px;
+}
+
